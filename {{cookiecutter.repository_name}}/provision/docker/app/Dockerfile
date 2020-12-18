@@ -22,7 +22,7 @@ ENV PACKAGES bash \
   zsh \
   jq
 
-ENV ZUNIT_VERSION 0.8.2
+ENV ZUNIT_VERSION "0.8.2"
 
 COPY Pipfile* /usr/src/
 
