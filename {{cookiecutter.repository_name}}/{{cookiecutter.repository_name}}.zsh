@@ -7,42 +7,14 @@
 # Authors:
 #   {{cookiecutter.author_name}} <{{cookiecutter.author_email}}>
 #
-{{cookiecutter.package_name}}_package_name="{{cookiecutter.package_name}}"
 
-{% filter upper %}{{cookiecutter.package_name}}_PLUGIN_DIR{% endfilter %}="$(dirname "${0}":A)"
-{% filter upper %}{{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}={% filter upper %}"${{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}"/src
+ZSH_{% filter upper %}{{cookiecutter.package_name}}_PATH{% endfilter %}=$(dirname "${0}")
 
 # shellcheck source=/dev/null
-source {% filter upper %}"${{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}"/base.zsh
+source "${ZSH_{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}_PATH}"/config/main.zsh
 
+# shellcheck source=/dev/null
+source "${ZSH_{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}_PATH}"/internal/main.zsh
 
-function {{cookiecutter.package_name}}::dependences {
-    message_info "Installing dependences for ${{cookiecutter.package_name}}_package_name"
-    message_success "Installed dependences for ${{cookiecutter.package_name}}_package_name"
-}
-
-function {{cookiecutter.package_name}}::packages {
-    message_info "Install packages for ${{cookiecutter.package_name}}_package_name"
-    message_success "Installed packages for ${{cookiecutter.package_name}}_package_name"
-}
-
-function {{cookiecutter.package_name}}::install {
-    {{cookiecutter.package_name}}::dependences
-    message_info "Installing ${{cookiecutter.package_name}}_package_name"
-    message_success "Installed ${{cookiecutter.package_name}}_package_name"
-}
-
-function {{cookiecutter.package_name}}::post_install {
-    message_info "Post Install ${{cookiecutter.package_name}}_package_name"
-    message_success "Success Install ${{cookiecutter.package_name}}_package_name"
-}
-
-function {{cookiecutter.package_name}}::load {
-}
-
-{{cookiecutter.package_name}}::load
-
-if ! type -p {{cookiecutter.package_name}} > /dev/null; then
-    {{cookiecutter.package_name}}::install
-    {{cookiecutter.package_name}}::post_install
-fi
+# shellcheck source=/dev/null
+source "${ZSH_{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}_PATH}"/pkg/main.zsh
