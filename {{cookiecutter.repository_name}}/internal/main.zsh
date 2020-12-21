@@ -3,15 +3,15 @@
 
 function {{cookiecutter.package_name}}::internal::main::factory {
     # shellcheck source=/dev/null
-    source "${ZSH_{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}_PATH}"/internal/base.zsh
+    source {{ "${ZSH_" }}{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}{{ "_PATH}" }}/internal/base.zsh
     case "${OSTYPE}" in
     darwin*)
         # shellcheck source=/dev/null
-        source "${ZSH_{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}_PATH}"/internal/osx.zsh
+        source {{ "${ZSH_" }}{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}{{ "_PATH}" }}/internal/osx.zsh
         ;;
     linux*)
         # shellcheck source=/dev/null
-        source "${ZSH_{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}_PATH}"/internal/linux.zsh
+        source {{ "${ZSH_" }}{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}{{ "_PATH}" }}/internal/linux.zsh
       ;;
     esac
 }
