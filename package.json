@@ -1,9 +1,9 @@
 {
   "keywords": [],
-  "name": "@equipindustry/cookiecutter-zsh-plugin",
+  "name": "@hadenlabs/cookiecutter-zsh-plugin",
   "description": "cookiecutter for zsh plugin",
   "private": true,
-  "repository": "ssh://git@github.com/equipindustry/cookiecutter-zsh-plugin.git",
+  "repository": "ssh://git@github.com/hadenlabs/cookiecutter-zsh-plugin.git",
   "author": "Luis Mayta <slovacus@gmail.com>",
   "license": "MIT",
   "stylintrc": ".stylintrc",

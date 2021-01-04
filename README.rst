@@ -6,9 +6,9 @@ cookiecutter fro zsh plugin
 |Build Status| |GitHub issues| |GitHub license|
 
 :Version: 0.0.0
-:Web: https://github.com/equipindustry/cookiecutter-zsh-plugin
-:Download: https://github.com/equipindustry/cookiecutter-zsh-plugin
-:Source: https://github.com/equipindustry/cookiecutter-zsh-plugin
+:Web: https://github.com/hadenlabs/cookiecutter-zsh-plugin
+:Download: https://github.com/hadenlabs/cookiecutter-zsh-plugin
+:Source: https://github.com/hadenlabs/cookiecutter-zsh-plugin
 :Keywords: cookiecutter-zsh-plugin
 
 .. contents:: Table of Contents:
@@ -61,7 +61,7 @@ Generate a Cookiecutter Base project::
 
 .. code-block:: bash
 
-    cookiecutter gh:equipindustry/cookiecutter-zsh-plugin
+    cookiecutter gh:hadenlabs/cookiecutter-zsh-plugin
 
 Support
 -------
@@ -117,14 +117,14 @@ Feel free to contact me to discuss any issues, questions, or comments.
 
 |linkedin| |beacon| |made|
 
-Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
+Made with :coffee: and :pizza: by `Luis Mayta`_ and `hadenlabs`_.
 
 .. Links
 .. _`changelog`: CHANGELOG.rst
 .. _`contributors`: docs/source/AUTHORS.rst
 .. _`contributing`: docs/source/CONTRIBUTING.rst
 
-.. _`equipindustry`: https://github.com/equipindustry
+.. _`hadenlabs`: https://github.com/hadenlabs
 .. _`Luis Mayta`: https://github.com/luismayta
 
 
@@ -136,10 +136,10 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. _`Website`: https://luismayta.github.io
 .. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. |Build Status| image:: https://travis-ci.org/equipindustry/cookiecutter-zsh-plugin.svg
-   :target: https://travis-ci.org/equipindustry/cookiecutter-zsh-plugin
-.. |GitHub issues| image:: https://img.shields.io/github/issues/equipindustry/cookiecutter-zsh-plugin.svg
-   :target: https://github.com/equipindustry/cookiecutter-zsh-plugin/issues
+.. |Build Status| image:: https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin.svg
+   :target: https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin
+.. |GitHub issues| image:: https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg
+   :target: https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
    :target: LICENSE
 
@@ -150,8 +150,8 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. Footer:
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
     :target: https://pe.linkedin.com/in/luismayta
-.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/cookiecutter-zsh-plugin/readme
-    :target: https://github.com/equipindustry/cookiecutter-zsh-plugin
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/cookiecutter-zsh-plugin/readme
+    :target: https://github.com/hadenlabs/cookiecutter-zsh-plugin
 .. |made| image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
     :target: http://www.python.org
 
