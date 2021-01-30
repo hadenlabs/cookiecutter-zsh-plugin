@@ -1,6 +1,6 @@
 {
   "name": "@hadenlabs/cookiecutter-zsh-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "cookiecutter for zsh plugin",
   "repository": "ssh://git@github.com/hadenlabs/cookiecutter-zsh-plugin.git",
   "author": "Luis Mayta <slovacus@gmail.com>",
