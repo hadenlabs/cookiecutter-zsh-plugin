@@ -20,9 +20,15 @@ ipython = "*"
 parso = "*"
 pyyaml = "*"
 bumpversion = "*"
-bumplus = "*"
 pre-commit = "*"
 doc8 = "*"
+bridgecrew = "*"
+mkdocs = "*"
+click-man = "*"
+pygments = "*"
+pymdown-extensions = "*"
+mkdocs-material = "*"
+checkov = "*"
 
 [packages]
 
