@@ -1,0 +1,74 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: cookiecutter-zsh-plugin
+
+company:
+  name: hadenlabs
+  description: |-
+    company labs
+  url: https://hadenlabs.com
+  github: https://github.com/hadenlabs
+  email: support@hadenlbas.com
+
+copyright:
+  name: Hadenlabs
+  url: https://hadenlabs.com
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: "MIT"
+
+# Canonical GitHub repo
+github_repo: hadenlabs/cookiecutter-zsh-plugin
+
+# Badges to display
+badges:
+  - name: "Build Status"
+    image: "https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin.svg?branch=main"
+    url: "https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin"
+  - name: "Issues"
+    image: "https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg"
+    url: "https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues"
+  - name: "Latest Release"
+    image: "https://img.shields.io/github/release/hadenlabs/cookiecutter-zsh-plugin.svg"
+    url: "https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin/releases"
+
+# Short description of this project
+description: |-
+  cookiecutter-zsh-plugin plugin for zsh.
+
+requirements: |-
+
+  List of applications:
+
+  - [Pyenv](https://github.com/pyenv/pyenv)
+  - [Docker](https://www.docker.com/)
+
+installation:
+  - "docs/include/installation/pip.md"
+  - "docs/include/installation/homebrew.md"
+  - "docs/include/installation/pipenv.md"
+
+# How to use this project
+usage: |-
+
+  Generate a Cookiecutter Base project:
+
+  ```bash
+  cookiecutter gh:hadenlabs/cookiecutter-zsh-plugin
+  ```
+
+# Contributors to this project
+contributors:
+  - name: "Luis Mayta"
+    github: "luismayta"
