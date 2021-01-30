@@ -1,0 +1,73 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: {{ cookiecutter.repository_name }}
+
+company:
+  name: {{ cookiecutter.copyright_name }}
+  description: |-
+    company labs
+  url: {{ cookiecutter.copyright_url }}
+  github: {{ cookiecutter.copyright_github }}
+  email: {{ cookiecutter.copyright_email }}
+
+copyright:
+  name: {{ cookiecutter.copyright_name }}
+  url: {{ cookiecutter.copyright_url }}
+
+email:
+  support: {{ cookiecutter.email_support }}
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: "MIT"
+
+# Canonical GitHub repo
+github_repo: {{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}
+
+# Badges to display
+badges:
+  - name: 'Build Status'
+    image: 'https://travis-ci.org/{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}.svg?branch=main'
+    url: 'https://travis-ci.org/{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}'
+  - name: "Issues"
+    image: "https://img.shields.io/github/issues/{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}.svg"
+    url: "https://github.com/{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}/issues"
+  - name: 'Latest Release'
+    image: 'https://img.shields.io/github/release/{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}.svg'
+    url: 'https://travis-ci.org/{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}/releases'
+
+# Short description of this project
+description: |-
+  {{ cookiecutter.project_description }}
+
+requirements: |-
+
+  This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
+
+  ```{.sourceCode .bash}
+  https://github.com/luismayta/zsh-core
+  https://github.com/luismayta/zsh-notify
+  ```
+
+installation:
+  - "docs/include/installation/oh-my-zsh.md"
+  - "docs/include/installation/antigen.md"
+  - "docs/include/installation/antibody.md"
+
+# How to use this project
+usage: |-
+  ```bash
+  make setup
+  ```
+
+# Contributors to this project
+contributors:
+  - name: '{{ cookiecutter.author_name }}'
+    github: '{{ cookiecutter.author_repository_username }}'
