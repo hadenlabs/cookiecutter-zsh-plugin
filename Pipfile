@@ -5,8 +5,6 @@ verify_ssl = true
 
 [dev-packages]
 docker-compose = "*"
-restview = "*"
-rst = "*"
 caniusepython3 = "*"
 isort = "*"
 mypy = "*"
@@ -27,7 +25,6 @@ pre-commit = "*"
 doc8 = "*"
 
 [packages]
-
 
 [scripts]
 test = "pytest"
