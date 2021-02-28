@@ -26,22 +26,22 @@ email:
 #logo: docs/logo.png
 
 # License of this project
-license: "MIT"
+license: 'MIT'
 
 # Canonical GitHub repo
 github_repo: hadenlabs/cookiecutter-zsh-plugin
 
 # Badges to display
 badges:
-  - name: "Build Status"
-    image: "https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin.svg?branch=main"
-    url: "https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin"
-  - name: "Issues"
-    image: "https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg"
-    url: "https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues"
-  - name: "Latest Release"
-    image: "https://img.shields.io/github/release/hadenlabs/cookiecutter-zsh-plugin.svg"
-    url: "https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin/releases"
+  - name: 'Build Status'
+    image: 'https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin.svg?branch=main'
+    url: 'https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin'
+  - name: 'Issues'
+    image: 'https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg'
+    url: 'https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues'
+  - name: 'Latest Release'
+    image: 'https://img.shields.io/github/release/hadenlabs/cookiecutter-zsh-plugin.svg'
+    url: 'https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin/releases'
 
 # Short description of this project
 description: |-
@@ -55,9 +55,9 @@ requirements: |-
   - [Docker](https://www.docker.com/)
 
 installation:
-  - "docs/include/installation/pip.md"
-  - "docs/include/installation/homebrew.md"
-  - "docs/include/installation/pipenv.md"
+  - 'docs/include/installation/pip.md'
+  - 'docs/include/installation/homebrew.md'
+  - 'docs/include/installation/pipenv.md'
 
 # How to use this project
 usage: |-
@@ -70,5 +70,5 @@ usage: |-
 
 # Contributors to this project
 contributors:
-  - name: "Luis Mayta"
-    github: "luismayta"
+  - name: 'Luis Mayta'
+    github: 'luismayta'
