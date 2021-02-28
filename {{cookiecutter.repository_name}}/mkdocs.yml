@@ -17,7 +17,7 @@ extra:
 
 repo_name: '{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}'
 repo_url: 'https://github.com/{{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}'
-copyright: 'Copyright © 2020 <a href="{{ cookiecutter.copyright_url }}">{{ cookiecutter.copyright_name }}</a>'
+copyright: 'Copyright © 2021 <a href="{{ cookiecutter.copyright_url }}">{{ cookiecutter.copyright_name }}</a>'
 
 google_analytics:
   - ''
