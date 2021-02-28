@@ -2,8 +2,6 @@
 
 If you're using [Antigen](https://github.com/zsh-lovers/antigen), install this plugin by doing the following:
 
-1.  Add `antigen bundle {{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}`
-    to your `.zshrc` where you're adding your other plugins.
-2.  Either open a new terminal to force zsh to load the new plugin, or run
-    `antigen bundle {{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}` in a running zsh session.
+1.  Add `antigen bundle {{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}` to your `.zshrc` where you're adding your other plugins.
+2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle {{ cookiecutter.repository_owner }}/{{ cookiecutter.repository_name }}` in a running zsh session.
 3.  Enjoy!
