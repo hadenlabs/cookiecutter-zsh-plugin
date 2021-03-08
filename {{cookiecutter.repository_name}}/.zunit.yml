@@ -1,7 +1,0 @@
-{% raw %}
-tap: false
-directories:
-  tests: tests
-  output: tests/_output
-time_limit: 30
-{% endraw %}
