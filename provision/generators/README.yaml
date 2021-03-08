@@ -33,15 +33,15 @@ github_repo: hadenlabs/cookiecutter-zsh-plugin
 
 # Badges to display
 badges:
-  - name: 'Build Status'
-    image: 'https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin.svg?branch=main'
-    url: 'https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin'
+  - name: Lint
+    image: https://github.com/hadenlabs/zsh-cookiecutter-zsh-plugin/actions/workflows/lint.yml/badge.svg?branch=develop
+    url: https://github.com/hadenlabs/zsh-cookiecutter-zsh-plugin/actions
   - name: 'Issues'
-    image: 'https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg'
-    url: 'https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues'
+    image: 'https://img.shields.io/github/issues/hadenlabs/zsh-cookiecutter-zsh-plugin.svg'
+    url: 'https://github.com/hadenlabs/zsh-cookiecutter-zsh-plugin/issues'
   - name: 'Latest Release'
-    image: 'https://img.shields.io/github/release/hadenlabs/cookiecutter-zsh-plugin.svg'
-    url: 'https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin/releases'
+    image: 'https://img.shields.io/github/release/hadenlabs/zsh-cookiecutter-zsh-plugin.svg'
+    url: 'https://travis-ci.org/hadenlabs/zsh-cookiecutter-zsh-plugin/releases'
 
 # Short description of this project
 description: |-
@@ -68,7 +68,5 @@ usage: |-
   cookiecutter gh:hadenlabs/cookiecutter-zsh-plugin
   ```
 
-# Contributors to this project
-contributors:
-  - name: 'Luis Mayta'
-    github: 'luismayta'
+examples:
+  - 'docs/examples/common.md'
