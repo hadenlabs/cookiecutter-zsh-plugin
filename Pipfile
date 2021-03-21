@@ -28,6 +28,9 @@ click-man = "*"
 pygments = "*"
 pymdown-extensions = "*"
 mkdocs-material = "*"
+checkov = "*"
+sh = "*"
+binaryornot = "*"
 grip = "*"
 
 [packages]
