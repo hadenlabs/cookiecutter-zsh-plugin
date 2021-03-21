@@ -14,7 +14,6 @@ function {{cookiecutter.package_name}}::pkg::main::factory {
         source {{ "${ZSH_" }}{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}{{ "_PATH}" }}/pkg/linux.zsh
       ;;
     esac
-
     # shellcheck source=/dev/null
     source {{ "${ZSH_" }}{% filter upper %}{{cookiecutter.package_name}}{% endfilter %}{{ "_PATH}" }}/pkg/alias.zsh
 

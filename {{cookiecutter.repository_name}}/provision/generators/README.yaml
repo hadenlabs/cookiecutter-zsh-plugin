@@ -33,15 +33,14 @@ badges:
 
 # Short description of this project
 description: |-
-  {{ cookiecutter.project_description }}
+  {{ cookiecutter.description }}
 
 requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
   ```{bash}
-  https://github.com/luismayta/zsh-core
-  https://github.com/luismayta/zsh-notify
+  https://github.com/hadenlabs/zsh-core
   ```
 
 installation:
