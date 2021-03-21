@@ -7,18 +7,6 @@
 # Name of this project
 name: cookiecutter-zsh-plugin
 
-company:
-  name: hadenlabs
-  description: |-
-    company labs
-  url: https://hadenlabs.com
-  github: https://github.com/hadenlabs
-  email: support@hadenlabs.com
-
-copyright:
-  name: Hadenlabs
-  url: https://hadenlabs.com
-
 email:
   support: support@hadenlabs.com
 
@@ -34,18 +22,21 @@ github_repo: hadenlabs/cookiecutter-zsh-plugin
 # Badges to display
 badges:
   - name: Lint
-    image: https://github.com/hadenlabs/zsh-cookiecutter-zsh-plugin/actions/workflows/lint.yml/badge.svg?branch=develop
-    url: https://github.com/hadenlabs/zsh-cookiecutter-zsh-plugin/actions
+    image: https://github.com/hadenlabs/cookiecutter-zsh-plugin/actions/workflows/lint.yml/badge.svg?branch=develop
+    url: https://github.com/hadenlabs/cookiecutter-zsh-plugin/actions
   - name: 'Issues'
-    image: 'https://img.shields.io/github/issues/hadenlabs/zsh-cookiecutter-zsh-plugin.svg'
-    url: 'https://github.com/hadenlabs/zsh-cookiecutter-zsh-plugin/issues'
+    image: 'https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg'
+    url: 'https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues'
   - name: 'Latest Release'
-    image: 'https://img.shields.io/github/release/hadenlabs/zsh-cookiecutter-zsh-plugin.svg'
-    url: 'https://travis-ci.org/hadenlabs/zsh-cookiecutter-zsh-plugin/releases'
+    image: 'https://img.shields.io/github/release/hadenlabs/cookiecutter-zsh-plugin.svg'
+    url: 'https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin/releases'
+  - name: 'Beacon'
+    image: 'https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/cookiecutter-zsh-plugin/readme'
+    url: 'https://github.com/hadenlabs/cookiecutter-zsh-plugin'
 
 # Short description of this project
 description: |-
-  cookiecutter-zsh-plugin plugin for zsh.
+  cookiecutter-zsh-plugin plugin for generate zsh plugin.
 
 requirements: |-
 
@@ -61,9 +52,6 @@ installation:
 
 # How to use this project
 usage: |-
-
-  Generate a Cookiecutter Base project:
-
   ```bash
   cookiecutter gh:hadenlabs/cookiecutter-zsh-plugin
   ```
