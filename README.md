@@ -14,15 +14,9 @@
 
 # cookiecutter-zsh-plugin
 
-[![Build Status](https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin.svg?branch=main)](https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin) [![Issues](https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg)](https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues) [![Latest Release](https://img.shields.io/github/release/hadenlabs/cookiecutter-zsh-plugin.svg)](https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin/releases)
+[![Lint](https://github.com/hadenlabs/cookiecutter-zsh-plugin/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/cookiecutter-zsh-plugin/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/cookiecutter-zsh-plugin.svg)](https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues) [![Latest Release](https://img.shields.io/github/release/hadenlabs/cookiecutter-zsh-plugin.svg)](https://travis-ci.org/hadenlabs/cookiecutter-zsh-plugin/releases) [![Beacon](https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/cookiecutter-zsh-plugin/readme)](https://github.com/hadenlabs/cookiecutter-zsh-plugin)
 
-cookiecutter-zsh-plugin plugin for zsh.
-
----
-
-This project is part of our comprehensive [hadenlabs](https://hadenlabs.com) plugins of zsh.
-
-It's 100% Open Source and licensed under the [MIT](LICENSE).
+cookiecutter-zsh-plugin plugin for generate zsh plugin.
 
 ## Requirements
 
@@ -53,17 +47,19 @@ pipenv install cookiecutter
 
 ## Usage
 
-Generate a Cookiecutter Base project:
-
 ```bash
 cookiecutter gh:hadenlabs/cookiecutter-zsh-plugin
 ```
+
+## Examples
+
+### common
 
 ## Help
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues), send us an [email][email] or join our [Slack Community][slack].
+File a GitHub [issue](https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues), send us an [email](email) or join our [Slack Community](slack).
 
 ## Contributing
 
@@ -71,9 +67,7 @@ File a GitHub [issue](https://github.com/hadenlabs/cookiecutter-zsh-plugin/issue
 
 Please use the [issue tracker](https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues) to report any bugs or file feature requests.
 
-### Developing
-
-If you are interested in being a contributor and want to get involved in developing this project or [help out](https://hadenlabs.com) with our other projects, we would love to hear from you! Shoot us an [email](mailto:support@hadenlabs.com).
+### Development
 
 In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
@@ -85,40 +79,22 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 **NOTE:** Be sure to rebase the latest changes from "upstream" before making a pull request!
 
-### Versioning
+#### Versioning
 
-Releases are managed using github release feature. We use \[Semantic Versioning\](<http://semver.org>) for all the releases. Every change made to the code base will be referred to in the release notes (except for cleanups and refactorings).
+Releases are managed using github release feature. We use [Semantic Versioning](http://semver.org) for all the releases. Every change made to the code base will be referred to in the release notes (except for cleanups and refactorings).
 
 ## Copyright
 
 Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
 
-## License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-The MIT License (MIT)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Source: <https://opensource.org/licenses/MIT>
-
 ## Trademarks
 
 All other trademarks referenced herein are the property of their respective owners.
 
-## About
+## License
 
-This project is maintained and funded by [Hadenlabs][https://hadenlabs.com]. Like it? Please let us know at <support@hadenlabs.com>
+The code and styles are licensed under the MIT license [See project license.](LICENSE).
 
-### Contributors
+## Don't forget to 🌟 Star 🌟 the repo if you like cookiecutter-zsh-plugin
 
-| [![Luis Mayta][luismayta_avatar]][luismayta_homepage]<br/>[Luis Mayta][luismayta_homepage] |
-| ------------------------------------------------------------------------------------------ |
-
-[luismayta_homepage]: https://github.com/luismayta
-[luismayta_avatar]: https://github.com/luismayta.png?size=150
+[Your feedback is appreciated](https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues)
